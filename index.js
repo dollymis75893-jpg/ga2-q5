@@ -7,7 +7,7 @@ app.use(express.json());
 
 const API_KEY = 'ak_uo0qhsqhecihwbet67iu2ijv';
 // YAHAN APNA LOGIN EMAIL DALEIN
-const MY_EMAIL = 'your-email@example.com'; 
+const MY_EMAIL = '24f1001016@ds.study.iitm.ac.in'; 
 
 app.post('/analytics', (req, res) => {
     const providedKey = req.header('X-API-Key');
